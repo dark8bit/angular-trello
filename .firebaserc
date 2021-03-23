@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "my-angular-trello-d0d0b": {
+      "hosting": {
+        "angular-trello": [
+          "my-angular-trello-d0d0b"
+        ]
+      }
+    }
+  }
+}

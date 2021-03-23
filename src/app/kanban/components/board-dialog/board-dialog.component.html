@@ -1,0 +1,15 @@
+<div>
+  <h1 mat-dialog-title>Board</h1>
+  <div mat-dialog-content>
+    <p>What snall we call this board?</p>
+    <mat-form-field>
+      <input placeholder="title" matInput [(ngModel)]="data.title">
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button color="accent" [mat-dialog-close]="data?.title">
+      Create
+    </button>
+    <button mat-button (click)="onCancel()">Cancel</button>
+  </div>
+</div>
